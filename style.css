@@ -5,20 +5,16 @@
 body{
     background-color: antiquewhite;
 }
-
 .container{
     background-color: white;
     width: 70%;
     margin:  auto;
     min-height: 100vh;
 }
-
 form{
     display:flex ;
     flex-direction: column;
 }
-
-
 input,textarea,button{
     padding: 10px;
     border: 1px solid black;
@@ -26,20 +22,15 @@ input,textarea,button{
     border-radius: 5px;
     outline: none;
     margin: 10px;
-
 }
   button{
     background: #000;
-    color: yellow;
-
-      
+    color: yellow;   
   }
-
   button:hover{
     background-color: rgb(199, 4,55);
 
   }
- 
   .task{
     background-color: rgb(255,255,255);
     font: 100 1.1rem sans-serif;
@@ -66,7 +57,6 @@ input,textarea,button{
     display:flex;
     justify-content: center;
     align-items: center;
-
   }
 
   h1{
