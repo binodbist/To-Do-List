@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    margin:  auto;
+    min-height: 100vh;
+}
+
+form{
+    display:flex ;
+    flex-direction: column;
+}
+
+
+input,textarea,button{
+    padding: 10px;
+    border: 1px solid black;
+    font:  100 1.1rem sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+
+}
+  button{
+    background: #000;
+    color: yellow;
+
+      
+  }
+
+  button:hover{
+    background-color: rgb(199, 4,55);
+
+  }
+ 
+  .task{
+    background-color: rgb(255,255,255);
+    font: 100 1.1rem sans-serif;
+    padding :30px;
+    color: rgb(0,0,0);
+    align-items: center;
+    display: flex;
+    
+  }
+   .task >div{
+    width:  100%;
+    margin: 2vmax;
+   }
+  .task span{
+    color: black;
+  }
+  
+  .delet{
+    background-color: crimson;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font: size 1.6rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  h1{
+    text-align: center;
+    color: crimson;
+  }
+
